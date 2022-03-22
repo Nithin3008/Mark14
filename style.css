@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgb(212 212 212);
+}
+
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.image1 {
+    width: 25%;
+
+}
+
+h1 {
+    text-align: center;
+    /* padding: 1rem; */
+    color: #5b21b6;
+}
+
+div {
+    font-size: larger;
+    padding: 1rem;
+    color: #5b21b6;
+}
+
+button {
+    background-color: #f97316;
+    padding: 1.5rem;
+    font-size: larger;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+input {
+    padding: 1rem;
+    border: 2px solid #f97316;
+    border-radius: 0.2rem;
+    outline: #fff;
+    text-align: center;
+}
