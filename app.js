@@ -8,7 +8,7 @@ function profit(ip,sp,q)
     var ip1=ip*q;
     var profit1=sp1-ip1;
     var profitPer=(profit1/ip1)*100;
-    msg.innerText="Profit you received "+profit1+" profit percentage "+profitPer+"%"
+    msg.innerText="Profit you received "+profit1+"/-, profit percentage "+profitPer+"%"
 }
 function loss(ip,sp,q)
 {
@@ -16,7 +16,7 @@ function loss(ip,sp,q)
     var ip1=ip*q;
     var loss1=ip1-sp1
     var lossPer=(loss1/ip1)*100
-    msg.innerText="Loss occured "+loss1+" loss percentage "+lossPer+"%"
+    msg.innerText="Loss occured "+loss1+"/-, loss percentage "+lossPer+"%"
     
 }
 
